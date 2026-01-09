@@ -18,11 +18,11 @@ st.set_page_config(
 # ======================
 @st.cache_data
 def load_wine_quality():
-    return pd.read_csv("data/winequality-red.csv")
+    return pd.read_csv("winequality-red.csv")
 
 @st.cache_data
 def load_food_pairings():
-    return pd.read_csv("data/wine_food_pairings.csv")
+    return pd.read_csv("wine_food_pairings.csv")
 
 # ======================
 # SIDEBAR
